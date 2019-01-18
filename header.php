@@ -1,4 +1,7 @@
 <header>
+  <div>
+    Test Library
+  </div>
   <ul>
     <!-- ページによってヘッダーの内容を変更するpage_flg -->
     <?php $page_flg = (!empty($_GET['page_flg'])) ? $_GET['page_flg'] : 0;

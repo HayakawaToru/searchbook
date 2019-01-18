@@ -1,0 +1,60 @@
+[18-Jan-2019 08:48:53 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 08:49:40 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 08:50:21 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 08:58:44 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 09:01:20 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 09:37:06 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 09:38:04 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 09:38:04 UTC] PHP Notice:  Undefined variable: siteTitle in /Applications/MAMP/htdocs/searchBook/head.php on line 6
+[18-Jan-2019 09:38:08 UTC] PHP Notice:  Undefined variable: dbj in /Applications/MAMP/htdocs/searchBook/resisterBookInfo.php on line 21
+[18-Jan-2019 09:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/searchBook/function.php:54
+Stack trace:
+#0 /Applications/MAMP/htdocs/searchBook/resisterBookInfo.php(21): queryPost(NULL, 'INSERT INTO boo...', Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/searchBook/function.php on line 54
+[18-Jan-2019 09:45:33 UTC] PHP Warning:  Use of undefined constant CreateBook - assumed 'CreateBook' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/searchBook/create.php on line 7
+[18-Jan-2019 10:17:59 UTC] デバッグ：蔵書登録処理スタート---------------------
+[18-Jan-2019 10:17:59 UTC] デバッグ：POST情報:Array
+(
+    [name] => aa
+    [author] => aa
+    [category] => 1
+)
+
+[18-Jan-2019 10:18:04 UTC] デバッグ：蔵書登録処理スタート---------------------
+[18-Jan-2019 10:18:04 UTC] デバッグ：POST情報:Array
+(
+    [name] => a
+    [author] => a
+    [category] => 1
+)
+
+[18-Jan-2019 11:21:42 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:21:42 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:21:42 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:21:42 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:24:34 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:24:34 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:24:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:24:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:25:26 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:25:26 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/searchBook/index.php on line 55
+[18-Jan-2019 11:25:41 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:25:41 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:25:41 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:25:41 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:25:58 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:25:58 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/searchBook/index.php on line 56
+[18-Jan-2019 11:27:05 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/searchBook/index.php on line 48
+[18-Jan-2019 11:27:05 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/searchBook/index.php on line 48
+[18-Jan-2019 11:33:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/searchBook/index.php on line 47
+[18-Jan-2019 11:34:06 UTC] デバッグ：蔵書登録処理スタート---------------------
+[18-Jan-2019 11:34:06 UTC] デバッグ：POST情報:Array
+(
+    [name] => aaa
+    [author] => fff
+    [category] => 2
+)
+
+[18-Jan-2019 11:34:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/searchBook/index.php on line 47
+[18-Jan-2019 11:34:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/searchBook/index.php on line 47
