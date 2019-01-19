@@ -1,6 +1,6 @@
 <header>
-  <div>
-    Test Library
+  <div class="site-logo">
+    じぶんちの本
   </div>
   <ul>
     <!-- ページによってヘッダーの内容を変更するpage_flg -->

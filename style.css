@@ -1,13 +1,168 @@
+/*========================================
+  リセット
+========================================*/
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(46, 49, 49, 1);
+  line-height: 150%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
 ul {
-  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+li {
   list-style: none;
 }
 
-a{
-  text-decoration: none;
-  color: black:
+input[type="text"] ,
+input[type="password"],
+textarea
+{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background: none;
 }
 
-a:visited {
-  color: black:
+button,
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+/*========================================
+  レイアウト
+========================================*/
+body {
+
+}
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 20px;
+  min-height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.page-title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.index-area{
+  border-top: 3px solid lightgray;
+  margin-top: 30px;
+}
+/*========================================
+  ヘッダー
+========================================*/
+header {
+  height: 50px;
+  width: 100%;
+  background: rgba(108, 122, 137, .5);
+  margin-bottom: 20px;
+}
+
+.site-logo {
+  display: inline;
+  width:200px;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+ul {
+  float:right;
+  margin-right: 200px;
+}
+
+li {
+  line-height: 50px;
+}
+/*========================================
+  フォーム
+========================================*/
+input[type="text"] {
+  display: block;
+  height: 18px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 5px;
+  padding:6px;
+  font-size:10px;
+  color: white;
+  background:rgba(34, 167, 240, .7);
+  border-radius: 2px;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+.createPage #main {
+  width: 500px;
+}
+
+.create-page .content {
+  width:400px;
+}
+
+.create-page input[type="text"] {
+  height:25px;
+  width: 250px;
+  margin: 8px auto;
+}
+
+.create-page input[type="submit"] {
+  margin: 30px auto;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.create-page select {
+  display: block;
+  margin: 5px auto;
+}
+
+.create-page label {
+  margin-left: 73px;
+}
+/*========================================
+  ブックデータ
+========================================*/
+.book-name {
+  font-weight: bold;
+}
+
+.book-data-wrap {
+  padding: 20px;
+  border-bottom: 1px dotted lightgray;
 }

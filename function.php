@@ -25,6 +25,19 @@ function validRequired($postStr){
   }
 }
 
+//sessionを１回だけ取得できる
+function getSessionData(){
+  if(!empty($_SESSION)){
+    $resultArr = array("result" => $_SESSION['result'],
+    "result_flg" => $_SESSION['result_flg']
+    );
+    $_SESSION = '';
+    return $resultArr;
+  }else{
+    return false;
+  }
+}
+
 // カテゴリー情報の取得
 function getCategoryInfo(){
   try{
